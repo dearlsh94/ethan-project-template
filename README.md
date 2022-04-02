@@ -1,31 +1,19 @@
-# Project Stack
+# Notice
 
-- React
-- Next.js
-- Material UI
-- Typescript
-- koa
+- 각 feature branch 별 적용된 기술 Stack이 다릅니다. 더 정확한 정보는 branch 마다의 Readme에서 확인할 수 있습니다.
+- master branch checkout은 권장하지 않습니다.
+- 더 나은 설정 방식이 있다면 적극적인 PR 부탁드립니다.
 
-# Versions
+# Branchs
+## react-next-type-mui
+React
+Next.js
+Typescript
+Material UI
 
-- node.js : v16.14.2
-- react : v18.0.0
-- next.js : v.12.1.4
-- koa : v2.13.4
-- MUI : v5.5.3
-- MUI icons : v5.5.1
-
-# Add Settings
-
-- `_documents.tsx`
-- `_error.tsx`
-- `404.tsx`
-- `src/index.ts`
-- Directory paths
-  - `/components`
-  - `/utils`
-  - `/services`
-
-# Getting Started
-
-`npm run server:dev` or `yarn server:dev`, Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
+## react-next-type-mui-koa
+React
+Next.js
+Typescript
+Material UI
+koa
