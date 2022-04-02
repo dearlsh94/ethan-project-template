@@ -15,9 +15,8 @@ export type ErrorProps = {
 const ErrorPage = (props: ErrorPageProps): JSX.Element => {
   const { statusCode, isReadyToRender, err, children = null } = props
 
-  console.log('statusCodestatusCodestatusCodestatusCodestatusCode', statusCode)
-  // eslint-disable-next-line no-debugger
-
+  console.log('statusCode : ', statusCode)
+  
   if (process.env.NEXT_PUBLIC_APP_STAGE !== 'development') {
     console.warn('ErrorPage - details:')
     console.error(err)
