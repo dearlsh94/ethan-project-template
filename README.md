@@ -19,15 +19,20 @@
 
 # Add Settings
 
-- `_documents.tsx`
-- `_error.tsx`
-- `404.tsx`
-- `src/index.ts`
-- `/shared/firebase.ts`
+- `/src/pages/_documents.tsx`
+- `/src/pages/_error.tsx`
+- `/src/pages/404.tsx`
+- `/src/server/index.ts`
+- `/src/shared/firebase.ts`
 - Directory paths
   - `/components`
+  - `/pages`
   - `/utils`
   - `/services`
+  - `/styles`
+  - `/types`
+  - `/server`
+  - `/shared`
   - `/constants/secret`
 
 # Getting Started
