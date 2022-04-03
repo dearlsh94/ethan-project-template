@@ -17,14 +17,18 @@
 
 # Add Settings
 
-- `_documents.tsx`
-- `_error.tsx`
-- `404.tsx`
-- `src/index.ts`
+- `/src/pages/_documents.tsx`
+- `/src/pages/_error.tsx`
+- `/src/pages/404.tsx`
+- `/src/server/index.ts`
 - Directory paths
   - `/components`
+  - `/pages`
   - `/utils`
   - `/services`
+  - `/styles`
+  - `/types`
+  - `/server`
 
 # Getting Started
 
