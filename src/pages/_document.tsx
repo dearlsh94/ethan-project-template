@@ -1,5 +1,4 @@
-import * as React from 'react'
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
 
 class EthanDocument extends Document {
 	render() {
@@ -19,7 +18,7 @@ class EthanDocument extends Document {
 	}
 }
 
-EthanDocument.getInitialProps = async (ctx) => {
+EthanDocument.getInitialProps = async (ctx: DocumentContext) => {
 	const initialProps = await Document.getInitialProps(ctx)
 
 	return {
