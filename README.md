@@ -4,8 +4,10 @@
 - Next.js
 - Typescript
 - Material UI
-- koa
-- firebase
+- Koa
+- Firebase
+- ESlint
+- Prettier
 
 # Versions
 
@@ -14,8 +16,10 @@
 - next.js : v.12.1.4
 - MUI : v5.5.3
 - MUI icons : v5.5.1
-- koa : v2.13.4
-- firebase : v9.6.10
+- Koa : v2.13.4
+- Firebase : v9.6.10
+- ESlint : v8.12.0
+- Prettier : v2.6.2
 
 # Add Settings
 
@@ -34,6 +38,9 @@
   - `/server`
   - `/shared`
   - `/constants/secret`
+- `.eslintignore`
+- `.esslintrc`
+- `.prrettieerrc`
 
 # Getting Started
 
@@ -55,3 +62,7 @@ export const firebaseConfigProd = {
 - `npm run dev` or `yarn dev`, Open http://localhost:3000 with your browser to see the result.
 
 - `npm run server:dev` or `yarn server:dev`, Open [http://localhost:3001](http://localhost:3001) with your browser to see the web server result.
+
+- `npm run lint` or `yarn lint`, Checking source format by lint rule 
+
+- `npm run prettier` or `yarn prettier`, Source look so better
