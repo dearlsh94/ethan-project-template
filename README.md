@@ -33,5 +33,7 @@
 # Getting Started
 
 `npm run dev` or `yarn dev`, Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 `npm run lint` or `yarn lint`, Checking source format by lint rule
+
 `npm run prettier` or `yarn prettier`, Source look so better
