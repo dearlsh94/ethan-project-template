@@ -1,0 +1,73 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "react-hooks"
+  ],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "no-unused-vars": [
+      "off"
+    ],
+    "no-console": [
+      "off"
+    ],
+    "import/prefer-default-export": [
+      "off"
+    ],
+    "arrow-parens": [
+      "warn",
+      "as-needed"
+    ],
+    "no-use-before-define": 0,
+    "linebreak-style": 0,
+    "prettier/prettier": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "import/extensions": 0,
+    "import/no-unresolved": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ],
+    "react-hooks/exhaustive-deps": [
+      "warn"
+    ],
+    "react/jsx-props-no-spreading": [
+      1,
+      {
+        "custom": "ignore"
+      }
+    ],
+    "react/function-component-definition": [
+      "warn",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "react/require-default-props": [0],
+    "react/jsx-boolean-value": "warn",
+    "react/jsx-curly-brace-presence": "warn",
+    "react/jsx-fragments": "warn",
+    "react/jsx-no-useless-fragment": "warn",
+    "react/jsx-uses-react": "off",
+    "react/prefer-stateless-function": "warn",
+    "react/prop-types": "off"
+  }
+}
